@@ -22,13 +22,13 @@ min-width - */
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     body {
         background-color: lightgreen;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     body {
         background-color: lavender;
     }
