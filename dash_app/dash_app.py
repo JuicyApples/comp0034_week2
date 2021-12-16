@@ -2,20 +2,10 @@
 import dash
 from dash import html
 
-external_stylesheets = [
-    {
-        "href": "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css",
-        "rel": "stylesheet",
-    },
-]
-
-
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
 
 app.layout = html.Div(children=[
     html.H1(children='Hello Dash'),
-
-
 
 ])
 
