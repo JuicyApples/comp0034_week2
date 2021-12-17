@@ -1,8 +1,8 @@
 # Lab session 2 activities
 
-## Activity 1: Create an html document
+## Activity 1: Create a html document
 
-Create an html file. By convention the main page of a website is often called  `index.html` so you may wish to create a
+Create a html file. By convention the main page of a website is often called  `index.html` so you may wish to create a
 file with that name.
 
 The basic html page structure is shown below. Add this to your HTML (it may already have been created if you used an
@@ -135,7 +135,7 @@ Run the app:
 
 - To run the dash app from the terminal or shell make sure you are in directory of your repository and type and
   run `python dash_app.py`
-- To run the dash app from PyCharm, right click on the file name `dash_app.py` in the Project pane and
+- To run the dash app from PyCharm, right-click on the file name `dash_app.py` in the Project pane and
   select `Run dash_app`. Or open `dash_app.py` and click on the green run arrow near line 29.
 - To run the dash app from VS Code, use the Run option from the left pane.
 
