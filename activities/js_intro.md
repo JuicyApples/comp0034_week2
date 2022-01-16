@@ -8,7 +8,7 @@ just sit there and display static information for you to look at — displaying 
 animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the
 third layer of the layer cake of standard web technologies, along with HTML and CSS."
 
-Unlike Python, which requires a Python environment to run and in our apps we will run on the serv; JavaScripts runs in
+Unlike Python, which requires a Python environment to run and in our apps we will run on the server; JavaScripts runs in
 the browser of the device that is being used to access the web page (unless the person has purposely disabled
 JavaScript). This execution of code on the device is referred to as 'client-side'.
 
@@ -76,6 +76,16 @@ extension `.js`.
 ```html
 
 <script src="js_intro.js" defer></script>
+```
+
+`js_intro.js`
+```javascript
+function createParagraph() {
+    let head_ext = document.querySelector('#external-js-heading')
+    let p = document.createElement('p');
+    p.innerHTML = 'You clicked the button!';
+    head_ext.append(p);
+}
 ```
 
 ## When is JavaScript executed?

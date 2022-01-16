@@ -12,12 +12,12 @@
     <title>JavaScript examples</title>
     <script src="js_intro.js" defer></script>
 
-
 </head>
 <body>
 <div class="container">
     <br>
     <p>This page uses Bootstrap styling and contains examples of JavaScript.</p>
+    <!-- Internal js -->
     <h1 id="internal-js-heading">Internal JavaScript</h1>
     <script>
         function createParagraph() {
@@ -29,9 +29,11 @@
     </script>
     <button onclick="createParagraph()" type="button" class="btn btn-primary">Click me!</button>
 
+    <!-- External js -->
     <h1 id="external-js-heading">External JavaScript</h1>
     <button id="btn-ext" onclick="createParagraph()" type="button" class="btn btn-primary">Click me!</button>
 
+    <!-- Event listener -->
     <h1>JavaScript addEventListener()</h1>
     <p>This example uses the addEventListener() method to attach a click event to a button.</p>
     <button id="btn-listener">Try it</button>

@@ -2,11 +2,12 @@
 
 ## Activities and guides
 
-1. [Lab 2 instructions](/activities/lab_2.md)
-2. [Introduction to HTML](/activities/html_intro.md)
-3. [Introduction to CSS](/activities/css_intro.md)
-4. [Introduction to Responsive Design](/activities/responsive_intro.md)
-5. [Introduction to Plotly Dash](/activities/plotly_dash_intro.md)
+1. [Lab 2 instructions](activities/lab_2.md)
+2. [Introduction to HTML](activities/html_intro.md)
+3. [Introduction to CSS](activities/css_intro.md)
+4. [Introduction to JavaScript](activities/js_intro.md)
+5. [Introduction to Responsive Design](activities/responsive_intro.md)
+6. [Introduction to Plotly Dash](activities/plotly_dash_intro.md)
 
 The `html_css_intro` directory contains code examples associated with the activities and other teaching materials on
 Moodle.
