@@ -151,7 +151,7 @@ Add the same html elements you added to the html file earlier to your dash app.
 
 The syntax is different. See [Dash HTML components documentation](https://dash.plotly.com/dash-html-components).
 
-Dash components are always created in the <body> so you will not be able to add the <title> element.
+Dash components are always created in the &lt;body&gt; so you will not be able to add the &lt;title&gt; element.
 
 ```python
 from dash import html
