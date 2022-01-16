@@ -130,8 +130,8 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
 
 ![Box model](img/box_model.png)
 
-## CSS and the HTML `<DIV>` tag
-HTML <div></div> tag divides content into sections. CSS styling can then be applied to sections.
+## CSS and the HTML `<div>` tag
+HTML `<div></div>` tag divides content into sections. CSS styling can then be applied to sections.
 
 ![CSS and DIV](img/css_div.png)
 
