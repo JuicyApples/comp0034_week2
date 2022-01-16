@@ -1,4 +1,4 @@
-# Introduction to CSS, responsive design and bootstrap
+# Introduction to CSS
 
 ## What is CSS?
 
