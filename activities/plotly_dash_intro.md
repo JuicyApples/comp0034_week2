@@ -11,10 +11,10 @@ Dash is written on top of Flask, Plotly.js, and React.js.
 Dash consists of:
 
 - Frontend generated in Python
-- Component class for every HTML tag as well as keyword arguments for all of the HTML arguments implemented in
-  dash_html_components package
-- Interactive html elements implemented in dash-core-components
-- Plotly python API implemented in dash-core-components available through Graph class
+- Backend which is implemented on top of Flask
+- Component class for every HTML tag as well as keyword arguments for all HTML arguments (`from dash import html`)
+- Interactive html elements implemented (`from dash import dcc`)
+- Plotly graph python API implemented in dash core components as the Graph class (`dcc.Graph`)
 
 You declare an **app layout**. The layout will generate React.js code that will be run in the browser.
 
@@ -44,17 +44,16 @@ The general sequence of programming steps for a Dash app is:
     - Plotly Go: for more complex chart options
     - Dash Bootrap Components: to use Bootstrap styling
 2. Import the dataset
-3. Create the app instance
-4. Create the Plotly figure(s)
-5. Create the layout
+3. Create the Plotly figure(s)
+4. Create the app instance
+5. Create the layout (and add the figures/graphs)
 6. Run the server
 
 The following shows the example in the [Dash tutorial](https://dash.plotly.com/layout).
 
 ```python
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import html, dcc
 import plotly.express as px
 import pandas as pd
 
