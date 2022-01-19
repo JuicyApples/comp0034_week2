@@ -123,7 +123,8 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 Bootstrap is a common css framework and there is a library that makes it easier to work with bootstrap in dashapps
 called [dash-bootstrap-components](https://dash-bootstrap-components.opensource.faculty.ai/docs/quickstart/).
 
-This requires the library to be imported and the app to be configured slightly differently.
+This requires the library to be imported and the app to be configured slightly differently. You can also explicitly
+declare the viewport which you will need for responsive design.
 
 ```python
 import dash
@@ -131,7 +132,12 @@ import dash_bootstrap_components as dbc
 
 external_stylesheets = [dbc.themes.BOOTSTRAP]
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(
+    external_stylesheets=[dbc.themes.BOOTSTRAP],
+    meta_tags=[
+        {"name": "viewport", "content": "width=device-width, initial-scale=1"},
+    ],
+)
 ```
 
 ## Directory structure for a Dash app
