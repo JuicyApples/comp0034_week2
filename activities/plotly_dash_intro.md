@@ -114,8 +114,12 @@ external_stylesheets and changing the app = dash.Dash as follows:
 # Define the CSS style sheets to be used
 external_stylesheets = ["https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"]
 
-# Create a Dash app that will be configured to display the chart
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+# Create a Dash app, this sets the style sheet and the viewport (needed for responsive design)
+app = dash.Dash(__name__, 
+                external_stylesheets=external_stylesheets,
+                meta_tags=[
+                   {"name": "viewport", "content": "width=device-width, initial-scale=1"},
+                ])
 ```
 
 ## Using Bootstrap CSS with Dash
